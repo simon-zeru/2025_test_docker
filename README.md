@@ -17,6 +17,7 @@ Welcome to the Calculator Test Project! This is a simple C programming exercise 
 1. **Optimize the Dockerfile**: The provided Dockerfile is not optimized. Your task is to create a multi-stage Dockerfile that minimizes the final image size.
 2. **Run the Application**: Use the Makefile to compile and run the calculator application.
 3. **BONUS : Write Unit Tests**: Implement additional unit tests in `test.c` to ensure the calculator functions work correctly.
+4. **BONUS : push the image to docker hub**: push the built docker image to docker hub (free plan) as part of the CI/CD pipeline
 
 ## How to Build and Run
 
