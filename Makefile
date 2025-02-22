@@ -16,6 +16,7 @@ OBJS = $(SRCS:src/.c=src/.o)
 
 # Règle par défaut
 all: $(TARGET_CALCULATOR) $(TARGET_TEST)
+	./$(TARGET_TEST) 
 
 # Règle pour générer le binaire calculator
 $(TARGET_CALCULATOR): $(OBJS:src/main.c=src/main.o) $(OBJS:src/calc.c=src/calc.o)
